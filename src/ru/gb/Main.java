@@ -14,10 +14,8 @@ public class Main {
             System.err.println("Мы сломали программу, проверьте введённые значения в массив!");
             e.printStackTrace();
         }
-
-
+        System.out.println("Программа всё ещё работает... до сего момента, спасибо за проверку");
     }
-
 
     private static int toSumArray(String[][] stringArray) throws MyArraySizeException, MyArrayDataException {
         int sum = 0;
